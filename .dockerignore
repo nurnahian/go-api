@@ -2,4 +2,4 @@
 .gitignore
 Dockerfile
 .dockerignore
-bin
+bin/

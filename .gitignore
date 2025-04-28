@@ -1,75 +1,20 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# Binaries
 bin/
 dist/
-
-# Test binary, built with `go test -c`
-*.test
-
-# Output of the go coverage tool
-*.out
+*.exe
 
 # Dependency directories
 vendor/
 go.sum
 
-# Go workspace file
-go.work
-
-# IDE specific files
+# IDE files
 .idea/
 .vscode/
-*.swp
-*.swo
 
 # Environment files
 .env
 .env.local
-.env*.local
 
-# Build output
-build/
-*.a
-
-# Debug files
-debug
-*.debug
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Editor directories and files
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# Log files
-*.log
-
-# Local development files
-local*
-*.local
-
-# Kubernetes files (if you're managing them manually)
-kubeconfig
-*.kubeconfig
-
-# Helm files (if applicable)
+# Kubernetes/Helm
 charts/
-*.tgz
-
-# Docker files (if applicable)
-docker-compose.override.yml
+*.kubeconfig

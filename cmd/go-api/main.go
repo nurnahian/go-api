@@ -11,7 +11,7 @@ func main() {
 
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"message": "Welcome to Gin API",
+			"message": "Welcome to Go-API!",
 		})
 	})
 
@@ -21,5 +21,5 @@ func main() {
 		})
 	})
 
-	r.Run() // listen and serve on 0.0.0.0:8080
+	r.Run(":8080") // Listen on port 8080
 }
