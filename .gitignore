@@ -5,7 +5,7 @@ dist/
 
 # Dependency directories
 vendor/
-go.sum
+#go.sum
 
 # IDE files
 .idea/
