@@ -1,9 +1,0 @@
-{
-    "environments": {
-      "production": {
-        "variables": {
-          "PORT": "8080"
-        }
-      }
-    }
-  }
